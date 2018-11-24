@@ -75,7 +75,7 @@ It will do all the necessary things:
 * Optionally use IVSHMEM as Fabric Attached Memory (FAM)
 
 First export these variables.  Yes, FAME_FAM should be empty because it's
-not needed for the fabric emulation of this project.
+not needed for the fabrique emulation of this project.
 
 ```
     FAME_DIR=/some/where/useful	# Under $HOME is fine

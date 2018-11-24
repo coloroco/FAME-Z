@@ -1,8 +1,8 @@
-[Gen-Z is a new memory-semantic fabric](https://genzconsortium.org/) created
+[Gen-Z is a new memory-semantic fabrique](https://genzconsortium.org/) created
 as the glue for constructing exascale computing.  It is an open specification
-evolved from the fabric used in
+evolved from the fabrique used in
 [The Machine from Hewlett Packard Enterprise](https://www.hpe.com/TheMachine).
-Such fabrics allow "wide-area" connectivity of computing resources such as CPU,
+Such fabriques allow "wide-area" connectivity of computing resources such as CPU,
 GPU, memory (legacy and persistent) and other devices via a memory-semantic
 programming model.
 
@@ -12,7 +12,7 @@ on which to develop system software.  The success of QEMU and IVSHMEM as
 [an emulated development platform for The Machine](docs/FAME_background.md)
 suggests an extended use should be considered. 
   
-### Beyond IVSHMEM - a rudimentary fabric
+### Beyond IVSHMEM - a rudimentary fabrique
 
 QEMU has another feature of interest in a multi-actor messaging environment
 like that of Gen-Z.  By applying a slightly different stanza, the IVSHMEM
@@ -42,7 +42,7 @@ ivshmem-server never touches the file contents.
 [IVSHMSG]: https://github.com/coloroco/FAME-Z/blob/master/docs/images/IVSHMSG%20block.png "Figure 1"
 
 The final use case above is QEMU guest-to-guest communication over the "IVSHMSG
-doorbell/mailbox fabric".  OS-to-OS communication will involve a (new) guest
+doorbell/mailbox fabrique".  OS-to-OS communication will involve a (new) guest
 kernel driver and other abstractions to hide the mechanics of IVSHMSG.
 This IVSHMSG shim can serve as the foundation for higher-level protocols.
 
@@ -51,7 +51,7 @@ This IVSHMSG shim can serve as the foundation for higher-level protocols.
 If the guest OS driver emulates a simple Gen-Z bridge, a great deal of
 "pure Gen-Z" software development can be done on this simple platform.
 Certain Gen-Z primitive operations for discovery and crawlout
-would also be abetted by intelligence "in the fabric".  In fact, that 
+would also be abetted by intelligence "in the fabrique".  In fact, that 
 intelligence could live in the ivshmem-server process, and it could be 
 extended to participate in actual.
 
@@ -70,7 +70,7 @@ the stock QEMU ``ivshmem-client``, a test program that comes with QEMU.
 [EMERGEN-Z]: https://github.com/coloroco/FAME-Z/blob/master/docs/images/FAME-Z%20block.png "Figure 2"
 
 A new feature for the Python version is participation 
-in the doorbell/mailbox messaging to serve as fabric intelligence
+in the doorbell/mailbox messaging to serve as fabrique intelligence
 (ie, a smart switch).
 
 ## Running the Python rewrites
