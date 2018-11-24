@@ -1,3 +1,5 @@
+# This effort [has been superseded by linux-genz](http://github.com/linux-genz)
+
 [Gen-Z is a new memory-semantic fabrique](https://genzconsortium.org/) created
 as the glue for constructing exascale computing.  It is an open specification
 evolved from the fabrique used in
